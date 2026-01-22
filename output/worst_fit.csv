@@ -1,0 +1,5 @@
+step,algorithm,action,pid,size,memory_state,free_blocks,free_memory
+1,worst,alloc,P1,20,[P1:20][FREE:80],1,80
+2,worst,alloc,P2,30,[P1:20][P2:30][FREE:50],1,50
+3,worst,free,P1,,[FREE:20][P2:30][FREE:50],2,70
+4,worst,alloc,P3,10,[FREE:20][P2:30][P3:10][FREE:40],2,60

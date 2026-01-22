@@ -1,0 +1,5 @@
+action,pid,size
+alloc,P1,20
+alloc,P2,30
+free,P1,
+alloc,P3,10
